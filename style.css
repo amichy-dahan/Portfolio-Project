@@ -40,8 +40,9 @@ ul.head-menu{
     justify-content:space-between;
     margin-right: 100px;
     padding: 20px;
+    list-style-type: none;
 }
-il>a{
+li>a{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: black;
@@ -61,10 +62,14 @@ il>a{
 
 .menu-icon span {
   height: 4px;
-  background-color: rgb(182, 147, 147);
+  background-color: rgb(125, 125, 125);
   border-radius: 2px;
   width: 100%;
 }
+
+
+
+
 
 
 
@@ -193,7 +198,7 @@ il>a{
 
 
 
-ul.il-prog > il {
+ul.il-prog > li {
     display: flex;
     margin-right: 100px;
     margin-bottom: 10px;
@@ -202,7 +207,7 @@ ul.il-prog > il {
 
 }
 
-il > p {
+li > p {
 
      font-family: Arial, Helvetica, sans-serif;
 }
@@ -376,13 +381,14 @@ input{
 }
 .area1{
    margin-top: 20px;
+   width: 100%;
 }
 textarea{
     border: 1px solid #ccc;
     border-radius: 5px;
     padding-bottom: 50px;
     margin-left: 50px;
-    width: 500px;
+    width: 90%;
 }
 
 form.input-contact div> p{
@@ -394,7 +400,7 @@ form.input-contact div> p{
 }
 .btn-form{
     margin-top: 20px;
-    width: 160px;
+    width: 30%;
     margin-left: 50px;
     padding-bottom:10px ;
     padding-top: 10px;
@@ -410,10 +416,26 @@ form.input-contact div> p{
 
 .information1{
        width: 100%;
-       margin-left: 100px;
-       margin-bottom: 200px;
+       margin: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-top: 30px;
        font-family: Arial, Helvetica, sans-serif;
     
+}
+.icons{
+
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+   
+}
+div.icons > a{
+
+    margin: 10px;
 }
 .ic{
     margin-top: 20px;
@@ -429,7 +451,11 @@ form.input-contact div> p{
 div.information1 > p{
 
     margin-top: 10px;
+    display: block;
+    
+    
 }
+
 
 .footer-text{
 
@@ -451,8 +477,10 @@ div.information1 > p{
 }
 ul.head-menu{
    display: none;
+  
 }
 .text-head{
+   
     margin-left: 30px;
 }
 
@@ -503,7 +531,7 @@ ul.head-menu{
 
 .par-about{
 
-    width: 300px;
+    width:100%;
     text-align: center;
 }
 .container-skills{
@@ -575,8 +603,8 @@ input{
     padding-top: 15px;
     width: 100%;
     text-align: center;
-    width: 400px;
-    margin-left: 15px;
+    width: 90%;
+    margin: auto;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -592,29 +620,42 @@ textarea{
     border: 1px solid #ccc;
     border-radius: 5px;
     padding-bottom: 50px;
-    margin-left: 15px;
-    width: 400px;
+    margin:auto ;
+    width: 90%;
+    display: flex;
 }
 
 .btn-form{
-    margin-top: 20px;
-    width: 92.5%;
-    margin-left: 15px;
-    background-color: rgb(13, 93, 231);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    border-radius: 5px;
-    border: none;
-
+    width:92%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .information1{
        width: 100%;
-     
-       
+       margin: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-top: 100px;
        font-family: Arial, Helvetica, sans-serif;
     
+}
+.icons{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+   
+}
+div.icons > a{
+
+    margin: 10px;
 }
 
 .text-info{
