@@ -97,6 +97,7 @@ li>a{
   width: 300px;
   background: white;
   text-align: center;
+  border-radius: 10px;
    
 }
 div.dropdown-content > a{
