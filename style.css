@@ -556,6 +556,13 @@ ul.head-menu{
 
 }
 
+.text-home{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    font-weight:700;
+    font-size: 30px;
+}
 .sectext-home{
     font-family: Arial, Helvetica, sans-serif;
     width:300px;
